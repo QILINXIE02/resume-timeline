@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #2562C2;
 }
 
 header {
@@ -12,12 +12,18 @@ header {
   padding: 1em 0;
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 section {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(210, 234, 254);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -45,7 +51,7 @@ li {
 }
 
 .skill {
-  background-color: #4CAF50;
+  background-color:#4AB5F0;
   color: white;
   padding: 8px 16px;
   margin: 4px;
@@ -62,7 +68,7 @@ li {
   margin-top: 30px;
   list-style: none;
   padding: 0;
-  overflow: hidden; /* Hide overflow to clip the connecting line */
+  overflow: hidden; 
 }
 
 .timeline:before {
@@ -72,7 +78,7 @@ li {
   top: 0;
   width: 2px;
   height: 100%;
-  background-color: #3498db;
+  background-color: #2562C2;
   z-index: 0;
 }
 
@@ -96,7 +102,7 @@ li {
   top: 20px;
   width: 2px;
   height: calc(100% - 40px);
-  background-color: #3498db;
+  background-color:#2562C2;
   z-index: 1;
 }
 
@@ -125,7 +131,6 @@ li {
   margin-left: 20px;
 }
 
-/* Add animation classes */
 .animate-in {
   opacity: 0;
   transform: translateY(30px);
@@ -137,7 +142,7 @@ li {
 }
 
 Footer {
-  background-color: #333;
+  background-color: #0A0C233;
   color: white;
   text-align: center;
   padding: 1em 0;
